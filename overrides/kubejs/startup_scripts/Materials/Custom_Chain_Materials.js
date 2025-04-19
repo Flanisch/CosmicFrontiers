@@ -10,7 +10,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .dust()
         .ore()
         .color(0x09474a).iconSet(GTMaterialIconSet.DULL)
-        .element(GTElements.get('alumina'))
+        .components('2x gtceu:aluminium', '3x gtceu:oxygen')
     event.create('chromium_iii_oxide')
         .dust()
         .color(0x3dc34d).iconSet(GTMaterialIconSet.DULL)
